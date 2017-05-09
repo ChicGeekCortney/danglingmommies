@@ -1,28 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html ng-app = "dMommies">
   <head>
     <meta charset="utf-8">
-    <title>My Blog</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <title>Dangling Mommies</title>
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
   </head>
   <body>
 <!-- TITLE BELOW -->
-    <div class="container">
       <div class="row" id="header">
         <img src="images/dmommies.png" alt="Dangling Mommies">
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="#/home">Welcome</a>
+                </li>
+                <li>
+                    <a href="#/about">About</a>
+                </li>
+                <li>
+                    <a href="#/events">Events</a>
+                </li>
+                <li>
+                    <a href="#/gallery">Gallery</a>
+                </li>
+
+            </ul>
+        </div>
       </div>
-<!--MAIN CONTENT BELOW  -->
-      <div class="row">
+
         <ng-view></ng-view>
-      </div>
-    </div>
+
+
 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
 <script type="text/javascript" src="https://code.angularjs.org/1.6.3/angular-route.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-
+<script src="lightbox/js/lightbox.js"></script>
+<script type="text/javascript" src="scripts/module.js"></script>
     </body>
 </html>

@@ -1,12 +1,13 @@
 body{
-  background-image: url('images/flowers.jpg');
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
 
 
 }
-
+li{
+  display: inline;
+}
 .float_left {
   mask-image: url(images/dmommies_logo.png);
   float: left;

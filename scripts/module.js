@@ -1,9 +1,8 @@
-var app = angular.module ('dmommies', ['ngRoute']);
+var app = angular.module ('dMommies', ['ngRoute']);
 
 app.config (function($routeProvider,$locationProvider){
 
   $routeProvider
-
   .when('/about', {
     controller: 'mommyControl',
     templateUrl: 'about.html'
@@ -15,5 +14,7 @@ app.config (function($routeProvider,$locationProvider){
   .when('/gallery', {
     controller: 'mommyControl',
     templateUrl: 'gallery.html'
-  })
+  });
+
+  $locationProvider.hashPrefix('');
 });
