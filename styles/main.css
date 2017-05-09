@@ -2,12 +2,8 @@ body{
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-
-
 }
-li{
-  display: inline;
-}
+
 .float_left {
   mask-image: url(images/dmommies_logo.png);
   float: left;
@@ -23,30 +19,20 @@ li{
   position: relative;
   margin-left:  50px;
 }
-/*#main-text{
-  background: rgba(255, 0, 0, 0.5);
-}*/
-#link {
-  width:100%;
-  margin: auto;
-  border: solid 1px black;
-}
 
 #sidebar-wrapper li{
 font-family: 'Barrio', cursive;
 font-size: 25px;
-color: pink;
+display: inline;
+text-decoration:none;
 }
 
 #sidebar-wrapper a{
 color: purple;
+text-decoration:none;
+text-align: center;
 }
 
-.link {
-  width: 33.33333%;
-  position: relative;
-  margin: auto;
-}
 #gallery{
   border: 1px black solid;
 }
