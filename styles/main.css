@@ -47,8 +47,16 @@ color: purple;
   position: relative;
   margin: auto;
 }
-
-
+#gallery{
+  border: 1px black solid;
+}
+.gallery{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline;
+  margin: auto;
+}
 
 
 #header img{
@@ -61,18 +69,6 @@ h1{
   text-align: center;
 }
 
-footer{
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  background-color: orange;
-  opacity: 0.6;
-  text-align: center;
-  bottom: 0px;
-  left: 0px;
-  font-style: italic;
-  display: inline-block;
-}
 
 #outer{
   background-color: rgba(255, 255, 255, 0.5);
