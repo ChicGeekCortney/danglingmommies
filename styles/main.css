@@ -1,7 +1,34 @@
 body{
-  background-size:     cover;
+  /*background: url(paper2.jpeg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-size:    cover;
   background-repeat:   no-repeat;
   background-position: center center;
+  background-color: pink;*/
+}
+
+
+.sidebar-wrapper a:hover {
+    /*color: pink;*/
+    text-decoration: underline;
+}
+
+
+.header img{
+display: block;
+margin: auto;
+}
+.header{
+  background-color: pink;
+  height: 300px;
+}
+
+#mission img{
+  display: block;
+  margin: auto;
 }
 
 .float_left {
@@ -20,14 +47,14 @@ body{
   margin-left:  50px;
 }
 
-#sidebar-wrapper li{
+.sidebar-wrapper li{
 font-family: 'Barrio', cursive;
 font-size: 25px;
 display: inline;
 text-decoration:none;
 }
 
-#sidebar-wrapper a{
+.sidebar-wrapper a{
 color: purple;
 text-decoration:none;
 text-align: center;
@@ -45,11 +72,7 @@ text-align: center;
 }
 
 
-#header img{
-position: relative;
-left: 25%;
-margin-bottom: 50px;
-}
+
 
 h1{
   text-align: center;
