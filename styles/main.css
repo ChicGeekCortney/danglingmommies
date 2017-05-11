@@ -1,18 +1,29 @@
 body{
-  background-size:     cover;
+  /*background: url(paper2.jpeg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-size:    cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  background-color: pink;
+  background-color: pink;*/
 }
 
+
 .sidebar-wrapper a:hover {
-    color: pink;
+    /*color: pink;*/
     text-decoration: underline;
 }
 
-#headimage img{
-  display: inline-block;
-  margin: auto;
+
+.header img{
+display: block;
+margin: auto;
+}
+.header{
+  background-color: pink;
+  height: 300px;
 }
 
 #mission img{
@@ -61,11 +72,7 @@ text-align: center;
 }
 
 
-#header img{
-position: relative;
-left: 25%;
-margin-bottom: 50px;
-}
+
 
 h1{
   text-align: center;

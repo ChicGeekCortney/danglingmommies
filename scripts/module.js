@@ -4,23 +4,23 @@ app.config (function($routeProvider,$locationProvider){
 
   $routeProvider
   .when('/about', {
-    controller: 'mommyControl',
+    // controller: 'mommyControl',
     templateUrl: 'about.html'
   })
   .when('/events', {
-    controller: 'mommyControl',
+    // controller: 'mommyControl',
     templateUrl: 'events.html'
   })
   .when('/gallery', {
-    controller: 'mommyControl',
+    // controller: 'mommyControl',
     templateUrl: 'gallery.html'
   })
   .when('/home', {
-    controller: 'mommyControl',
+    // controller: 'mommyControl',
     templateUrl: 'welcome.html'
   })
   .when('/team', {
-    controller: 'mommyControl',
+    // controller: 'mommyControl',
     templateUrl: 'team.html'
   });
 
