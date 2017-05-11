@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Dangling Mommies</title>
-    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
@@ -11,10 +11,10 @@
   <body>
 <!-- TITLE BELOW -->
       <div class="row" id="header">
-        <div id="sidebar-wrapper">
+        <div class="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="#/home">Welcome</a>
+                    <a href="#/home">Home</a>
                 </li>
                 <li>
                     <a href="#/about">About</a>
@@ -26,12 +26,29 @@
                     <a href="#/gallery">Gallery</a>
                 </li>
 
+                <li>
+                    <a href="#/team"> The Team</a>
+                </li>
+
             </ul>
+
         </div>
-              <img src="images/dmommies.png" alt="Dangling Mommies">
+        <div id= 'headimage'>
+          <img  src="images/dmommies.png" alt="Dangling Mommies">
+        </div>
+
       </div>
 
-        <ng-view></ng-view>
+
+      <div class="col-md-2">
+      </div>
+<div class="col-md-8">
+  <ng-view></ng-view>
+  <!-- <welcome-text></welcome-text> -->
+</div>
+<div class="col-md-2">
+</div>
+
 
 
 

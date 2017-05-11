@@ -14,7 +14,27 @@ app.config (function($routeProvider,$locationProvider){
   .when('/gallery', {
     controller: 'mommyControl',
     templateUrl: 'gallery.html'
+  })
+  .when('/home', {
+    controller: 'mommyControl',
+    templateUrl: 'welcome.html'
+  })
+  .when('/team', {
+    controller: 'mommyControl',
+    templateUrl: 'team.html'
   });
 
   $locationProvider.hashPrefix('');
+});
+
+
+app.directive('welcomeText', function(){
+
+return {
+  restrict: 'AE',
+  templateUrl: 'welcome.html',
+  replace: false
+
+};
+
 });
