@@ -16,14 +16,46 @@ body{
     text-decoration: underline;
 }
 
+.backdrop{
+  position: relative;
+  z-index: 1;
+}
+
+.backdrop .innerback{
+  position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: url(balloons.jpeg) center center;
+   background-size: 100%;
+   opacity: .25;
+   width: 100%;
+   height: 100%;
+}
+
 
 .header img{
 display: block;
 margin: auto;
 }
 .header{
-  background-color: pink;
+  background-color: #fc93d4;
   height: 300px;
+}
+
+#about p{
+  position: relative;
+}
+
+#about{
+  position: relative;
+  top: 15px;
+}
+
+.side{
+  background-color: #fc93d4;
 }
 
 #mission img{
