@@ -8,6 +8,8 @@ body{
   background-repeat:   no-repeat;
   background-position: center center;
   background-color: pink;*/
+  /*background-color: #6bfaff;*/
+
 }
 
 
@@ -15,7 +17,12 @@ body{
     /*color: pink;*/
     text-decoration: underline;
 }
-
+.bottom{
+   background-color:#fc93d4;
+   background-size: 100%;
+   width: 100%;
+   height: 100%;
+}
 .backdrop{
   position: relative;
   z-index: 1;
