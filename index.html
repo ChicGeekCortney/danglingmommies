@@ -8,7 +8,7 @@
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
   </head>
-  <body id='background'>
+  <body id='background'class = 'index'>
 <!-- TITLE BELOW -->
       <div class="row header">
         <div class="sidebar-wrapper">
@@ -16,9 +16,9 @@
                 <li>
                     <a href="#/home">Home</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#/about">About</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="#/events">Events</a>
                 </li>
@@ -43,11 +43,12 @@
       </div>
       <div class="col-md-2">
       </div>
-<div class="col-md-8">
+<div class="col-md-8" ng-controller="mommyControl">
 
+  <div ng-include = "'welcome.html'" ng-if "showPage">
+  </div>
 
   <ng-view></ng-view>
-  <!-- <welcome-text></welcome-text> -->
 </div>
 
 <div class="col-md-2">
