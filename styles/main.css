@@ -11,7 +11,17 @@ body{
   /*background-color: #6bfaff;*/
 
 }
+.headings{
+  font-family: 'Barrio', cursive;
+    text-align: center;
+}
+/*h1{
+  text-align: center;
+}*/
 
+h2{
+  text-align: center;
+}
 
 .sidebar-wrapper a:hover {
     /*color: pink;*/
@@ -113,9 +123,7 @@ text-align: center;
 
 
 
-h1{
-  text-align: center;
-}
+
 
 
 #outer{
