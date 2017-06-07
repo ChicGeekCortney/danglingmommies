@@ -96,6 +96,17 @@ margin: auto;
   margin-left:  50px;
 }
 
+.eventsPic{
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
+
+iframe{
+  margin: auto;
+  width: auto;
+}
+
 .sidebar-wrapper li{
 font-family: 'Barrio', cursive;
 font-size: 25px;
