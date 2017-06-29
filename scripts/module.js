@@ -23,6 +23,10 @@ app.config (function($routeProvider,$locationProvider){
      controller: 'mommyControl',
     templateUrl: 'team.html'
   })
+  .when('/contact', {
+     controller: 'mommyControl',
+    templateUrl: 'contact.html'
+  })
   .otherwise({
        redirectTo: '/home'
      });
