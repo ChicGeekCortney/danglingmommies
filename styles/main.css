@@ -101,11 +101,16 @@ margin: auto;
   height: 300px;
   margin: auto;
 }
-
-iframe{
+.cal iframe{
+  width: 1000px;
+  height: 1000px;
   margin: auto;
-  width: auto;
+display: block;
 }
+/*iframe{
+position: relative;
+margin: auto;
+}*/
 
 .sidebar-wrapper li{
 font-family: 'Barrio', cursive;
