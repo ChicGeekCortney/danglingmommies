@@ -1,15 +1,21 @@
-body{
-  /*background: url(paper2.jpeg) no-repeat center center fixed;*/
+body {
+  background: url(lightChalk.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-size:    cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-  background-color: pink;*/
-  /*background-color: #6bfaff;*/
+}
 
+body::after {
+  content: "";
+  background: url(chalk.jpeg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 .headings{
   font-family: 'Barrio', cursive;
@@ -42,7 +48,7 @@ h2{
    bottom: 0;
    left: 0;
    right: 0;
-   background: url(wood.jpeg) center center;
+   background: url() center center;
    background-size: 100%;
    opacity: .50;
    width: 100%;
@@ -53,6 +59,7 @@ h2{
 .header img{
 display: block;
 margin: auto;
+/*box-shadow: 10px 10px 5px #888888;*/
 }
 .header{
   /*background: rgba(69, 186, 213, 0.1);*/
