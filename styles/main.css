@@ -6,17 +6,6 @@ body {
   background-size: cover;
 }
 
-body::after {
-  content: "";
-  background: url(chalk.jpeg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
 .headings{
   font-family: 'Barrio', cursive;
     text-align: center;
@@ -30,12 +19,7 @@ h2{
 .sidebar-wrapper a:hover {
     text-decoration: underline;
 }
-.bottom{
-   background-color:#fc93d4;
-   background-size: 100%;
-   width: 100%;
-   height: 100%;
-}
+
 .backdrop{
   position: relative;
   z-index: 1;
@@ -56,34 +40,16 @@ h2{
 }
 
 
+
+
 .header img{
 display: block;
 margin: auto;
-/*box-shadow: 10px 10px 5px #888888;*/
 }
 .header{
-  /*background: rgba(69, 186, 213, 0.1);*/
   height: 300px;
-  opacity:
 }
 
-#about p{
-  position: relative;
-}
-
-#about{
-  position: relative;
-  top: 15px;
-}
-
-.side{
-  background-color: #fc93d4;
-}
-
-#mission img{
-  display: block;
-  margin: auto;
-}
 
 .float_left {
   mask-image: url(images/dmommies_logo.png);
@@ -136,19 +102,63 @@ text-align: left;
   width: 500px;
   height: 200px;
 }
-.sidebar-wrapper li{
+
+
+/*********NAV BAR************************/
+/*.sidebar-wrapper li{
 font-family: 'Barrio', cursive;
 font-size: 25px;
 display: inline;
 text-decoration:none;
+list-style-type: none;
 }
 
 .sidebar-wrapper a{
-color: purple;
+color: rgb(157, 57, 154);
 text-decoration:none;
 text-align: center;
+text-shadow: 2px 2px #000000;
+}*/
+
+/********WELCOME.HTML********/
+.welcomepage .otherlogo{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  display: block;
 }
 
+h3{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 55px;
+
+}
+
+.welcomepage p{
+  font-family: 'Fresca', sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+}
+/*.backdrop2{
+  position: relative;
+  z-index: 1;
+}
+
+.backdrop2 .innerback2{
+  position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: url(images/dmommies_logo.png) center center;
+   background-size: 100%;
+   opacity: .50;
+   width: 100%;
+   height: 100%;
+}*/
+/*****************GALLERY.HTML*********/
 #gallery{
   border: 1px black solid;
 }
