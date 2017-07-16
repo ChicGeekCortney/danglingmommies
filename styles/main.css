@@ -12,11 +12,6 @@ body {
   margin-bottom: 70px;
 }
 
-.navbar {
-  background: none;
-}
-
-
 .headings{
   font-family: 'Barrio', cursive;
     text-align: center;
@@ -193,13 +188,11 @@ h3{
      height: 70px; /* Set the fixed height of the footer here */
      background-color: rgba(0,0,0,0.3);
    }
- }
-}
 
 
-.paypal{
+/*.paypal{
 overflow: hidden;
-}
+}*/
 
 input {
   float: right;
