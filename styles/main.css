@@ -66,18 +66,20 @@ margin: auto;
   margin-right: 10px;
 }
 
-#eventPic{
+/*#eventPic{
   width: 75%;
   border: solid green 2px;
   border-radius: 3px;
   position: relative;
   margin-left:  50px;
-}
+}*/
 
-.eventsPic{
-  width: 200px;
-  height: 300px;
-  margin: auto;
+img.eventsPic{
+  width: 400px;
+  height: 500px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 .cal iframe{
   /*width: 1000px;
